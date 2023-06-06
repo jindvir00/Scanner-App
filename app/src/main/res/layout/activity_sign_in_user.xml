@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".SignInUser">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="24sp"
+        android:fontFamily="@font/aleo_bold"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:visibility="gone"
+        android:id="@+id/animationViewSignIn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:lottie_url="REPLACE_JSON_URL"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/loading_anim"
+        app:lottie_loop="true"
+        android:layout_marginTop="32dp"/>
+
+    <EditText
+        android:id="@+id/etEmailSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/background_et"
+        android:elevation="6dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/aleo_bold"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etPassSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"
+        android:hint="Password"
+        android:elevation="6dp"
+        android:fontFamily="@font/aleo_bold"
+        android:background="@drawable/background_et"
+        android:inputType="textPassword"
+        android:autofillHints="Password" />
+
+    <Button
+        android:id="@+id/signInBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignIn"
+        android:fontFamily="@font/aleo_bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary"
+        android:background="@drawable/background_et"
+        android:layout_margin="32dp"/>
+
+
+
+</LinearLayout>

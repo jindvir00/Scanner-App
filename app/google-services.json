@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "224532195010",
+    "project_id": "qr-scanner-c153d",
+    "storage_bucket": "qr-scanner-c153d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224532195010:android:514cbc7a8d4ac7f4c1bd5b",
+        "android_client_info": {
+          "package_name": "com.jindvir.qrscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224532195010-3noe8rhrf9tv7hbboshg0vdat5js67fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATOYnGAqCYr9zXD4ZmjQIRy6gPWQBlw2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224532195010-3noe8rhrf9tv7hbboshg0vdat5js67fi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224532195010:android:99bfe51f35cc11dac1bd5b",
+        "android_client_info": {
+          "package_name": "com.jindvir.scannerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224532195010-4bdh33qjpht7f3rialvl269vjjcj68ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jindvir.scannerapp",
+            "certificate_hash": "4e56279eb2cbe6393a858bca966ffd823eb62bf7"
+          }
+        },
+        {
+          "client_id": "224532195010-3noe8rhrf9tv7hbboshg0vdat5js67fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATOYnGAqCYr9zXD4ZmjQIRy6gPWQBlw2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224532195010-3noe8rhrf9tv7hbboshg0vdat5js67fi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
